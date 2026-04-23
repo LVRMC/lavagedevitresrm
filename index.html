@@ -239,10 +239,11 @@ hr.div{border:none;border-top:1px solid var(--border);margin:0}
 .promise-dot{width:6px;height:6px;border-radius:50%;background:var(--goldb);flex-shrink:0}
 
 @media(max-width:768px){
-  nav{justify-content:space-between;padding:0 1.25rem}
-  .nav-logo{position:absolute;left:50%;transform:translateX(-50%)}
+  nav{position:relative;justify-content:center;padding:0 1.25rem;height:70px}
+  .nav-logo{position:absolute;left:50%;transform:translateX(-50%);z-index:1}
   .nav-logo img{height:52px}
-  .nav-toggle{position:relative;z-index:1}
+  .nav-toggle{position:absolute;left:1.25rem;z-index:2}
+  .nav-phone{display:none}
 }
 </style>
 </head>
