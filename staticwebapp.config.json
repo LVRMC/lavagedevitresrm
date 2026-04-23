@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "route": "/politique.html",
+      "serve": "/politique.html"
+    },
+    {
+      "route": "/conditions.html",
+      "serve": "/conditions.html"
+    },
+    {
+      "route": "/politique",
+      "serve": "/politique.html"
+    },
+    {
+      "route": "/conditions",
+      "serve": "/conditions.html"
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/politique.html", "/conditions.html"]
+  }
+}
